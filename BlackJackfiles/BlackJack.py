@@ -13,7 +13,8 @@ count = 0
 for i in range(2):
 	print carddeck.deck[i]
 	count += 1
-	
+	# this pulls out the number from the 2D list pair and then makes it an integer so we can add them up
+	# this is done a bunch of times throughout the program
 	if carddeck.deck[i][0] in ['King', 'Queen', 'Jack']:
 		number = 10
 	elif carddeck.deck[i][0] == 'Ace':
