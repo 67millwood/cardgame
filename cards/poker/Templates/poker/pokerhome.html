@@ -1,0 +1,16 @@
+{% load staticfiles %}
+
+<html>
+	<head>
+		<link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
+	</head>
+	<body>
+		<p>Hi poker players</p>
+		<img src="{% static "images/yellow%20lab.jpeg" %}" />
+
+		<p>Is everyone having fun??</p>
+		<button type="button">
+			<a href="{% url "blackjack:game" %}">Link to blackjack app</a>
+		</button>
+	</body>
+</html>

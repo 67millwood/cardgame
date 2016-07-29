@@ -1,0 +1,62 @@
+body {
+    background-color: #c6e2ff;
+}
+
+@media screen
+and (min-device-width : 668px) {
+	img {
+  	  	display: left;
+  	  	margin: auto;
+	}
+}
+
+@media screen 
+and (max-device-width : 667px) {
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+p {
+	text-align: ;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+}
+form {
+	font-family:  Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #3D59AB;
+	font-family: Verdana, sans-serif;
+}
+
+button {
+     background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+option {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
