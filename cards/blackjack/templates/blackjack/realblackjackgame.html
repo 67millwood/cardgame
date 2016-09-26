@@ -1,0 +1,31 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width" />
+
+
+<html>
+	<head>
+		
+		<link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
+		<title>Actual game testing area</title>
+	</head>
+	<body>
+		<p>We'll bring in the code here</p>
+		<br>
+		<p>Here is a picture pulling from the 'static' directory</p>
+		<img src="{% static "images/blackjackhand.jpeg" %}" />
+		<br>
+		<button type="button"><a href="http://www.wsj.com/">External WSJ Link!</a></button>
+		<button type="button">
+		<a href="{% url "poker:game" %}">Link to poker app</a>
+		</button>
+		
+		<br>
+	</body>
+</html>
+
+		
+		
+		
+		
+		

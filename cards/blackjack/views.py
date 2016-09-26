@@ -12,4 +12,7 @@ def rules(request):
 def game(request):
 	return render(request, 'blackjack/blackjackgame.html')
 	# return HttpResponse("game page goes here")
+
+def realgame(request):
+	return render(request, 'blackjack/realblackjackgame.html')
 	

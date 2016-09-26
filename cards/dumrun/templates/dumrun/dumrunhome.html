@@ -1,0 +1,49 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width" />
+
+
+<html>
+	<head>
+<!--
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		$("#hide").click(function(){
+        $("p").hide();
+		});
+		$("#show").click(function(){
+        $("p").show();
+		});
+		});
+		</script>
+-->
+		<link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
+		<title>This is dumb</title>
+	</head>
+	<body>
+<!-- 		<p>This is dumb</p> -->
+		<br>
+		<p> There is a big guy named {{ name }} on the roof.</p>
+		<h1> {{ age }} </h1>
+		<h1> {{ height }} </h1>
+
+		<p> test </p>
+		<img src="{% static "images/blackjackhand.jpeg" %}" />
+		<br>
+		<img src="{% static "images/burritocat.jpeg" %}" />
+		<br>
+
+		<button id="hide">Hide</button>
+		<button id="show">Show</button>		
+		<p>If you click on the "Hide" button, I will disappear.</p>
+		
+		<br>
+	</body>
+</html>
+
+		
+		
+		
+		
+		

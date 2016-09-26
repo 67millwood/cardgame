@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blackjack',
     'poker',
+    'dumrun',
 ]
 
 MIDDLEWARE_CLASSES = [

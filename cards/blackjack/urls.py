@@ -7,6 +7,7 @@ app_name = 'blackjack'
 urlpatterns = [
 	url(r'^$', views.index, name='index'),
 	url(r'^rules', views.rules, name='rules'),
-	url(r'game', views.game, name='game'),
+	url(r'^game$', views.game, name='game'),
+	url(r'^realgame$', views.realgame, name='realgame')
 	# url(r'^poker/$', views.poker, name='index')
 ]

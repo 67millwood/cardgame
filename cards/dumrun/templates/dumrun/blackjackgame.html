@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width" />
+
+
+<html>
+	<head>
+		
+		<link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
+		<title>Welcome to Track2Development</title>
+	</head>
+	<body>
+		<p>Let's get this game created now</p>
+		<br>
+		<p>Here is a picture pulling from the 'static' directory</p>
+		<img src="{% static "images/burritocat.jpeg" %}" />
+		<br>
+		<p>There are two different ways to create links using Django:</p>
+		<button type="button"><a href="http://www.wsj.com/">Externa WSJ Link!</a></button>
+		<button type="button">
+		<a href="{% url "poker:game" %}">Link to poker app</a>
+		</button>
+		
+		<br>
+	</body>
+</html>
+
+		
+		
+		
+		
+		

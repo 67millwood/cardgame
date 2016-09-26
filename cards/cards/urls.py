@@ -21,6 +21,8 @@ from django.conf.urls.static import static
 urlpatterns = [
     url(r'^blackjack/', include('blackjack.urls')),
     url(r'^poker/', include('poker.urls')),
+    url(r'dumrun/', include ('dumrun.urls')),
+    url(r'', include('blackjack.urls')),
  #   static(settings.STATIC_URL, document_root=settings.STATIC_ROOT),
  #   url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^admin/', admin.site.urls)
